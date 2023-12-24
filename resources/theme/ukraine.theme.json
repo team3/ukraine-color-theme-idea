@@ -12,17 +12,17 @@
       "foreground": "primaryYellow",
       "infoForeground": "#2f6793",
       "successForeground": "#50A661",
-      "selectionBackground": "#587a8c",
+      "selectionBackground": "#04405b",
       "selectionForeground": "#a7b9c7",
-      "selectionInactiveBackground": "#175472",
-      "selectionBackgroundInactive": "#175472",
-      "disabledBackground": "#587a8c",
+      "selectionInactiveBackground": "#04405b",
+      "selectionBackgroundInactive": "#04405b",
+      "disabledBackground": "primaryBlue",
       "inactiveBackground": "primaryBlue",
       "disabledForeground": "primaryBlue",
-      "disabledText": "#587a8c",
-      "inactiveForeground": "#296989",
-      "acceleratorForeground": "#a9daf3",
-      "acceleratorSelectionForeground": "#a9daf3",
+      "disabledText": "#283944",
+      "inactiveForeground": "#485e6b",
+      "acceleratorForeground": "#2f6793",
+      "acceleratorSelectionForeground": "#2f6793",
       "errorForeground": "#b64063",
       "borderColor": "#001b34",
       "disabledBorderColor": "#1f546b",
@@ -48,12 +48,7 @@
       "underlineHeight": 5,
       "hoverBackground": "#072f44"
     },
-    "Bookmark": {
-      "iconBackground": "#28acea",
-      "Mnemonic": {
-        "iconForeground": "primaryYellow"
-      }
-    },
+    "StatusBar.borderColor": "#b3b3b3",
     "Button": {
       "startBackground": "primaryBlue",
       "endBackground": "primaryBlue",
