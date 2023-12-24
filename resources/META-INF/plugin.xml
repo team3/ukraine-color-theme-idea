@@ -1,0 +1,41 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+  <id>ukraine-color-theme</id>
+  <version>1.0.0</version>
+
+  <!-- Public plugin name should be written in Title Case.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+  <name>Ukraine Theme</name>
+  <category>UI</category>
+
+  <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+  <vendor email="andr.parkhomenko@gmail.com" url="https://www.github.com/team3/ukraine-color-theme-idea">Andriy Parkhomenko</vendor>
+
+  <idea-version since-build="231" until-build="241.*"/>
+
+  <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+       Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+  <description><![CDATA[
+    The "Ukraine" theme for this IDE boasts a sophisticated and dark aesthetic, creating a visually immersive coding environment. <br>
+    The predominant dark background not only reduces eye strain during long coding sessions but also enhances focus on code elements. <br>
+    The choice of a vibrant yellow font color adds a touch of warmth and contrast, making code snippets and syntax elements easily distinguishable. <br>
+    This color combination not only reflects the sleekness of modern design but also pays homage to Ukraine's national colors, <br>
+    creating a visually appealing and functional coding experience.<br>
+  ]]></description>
+
+  <!-- Short summary of new features and bugfixes in the latest plugin version.
+       Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+  <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+  <!-- Product and plugin compatibility requirements.
+       Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ukraine" path="/theme/ukraine.theme.json"/>
+  </extensions>
+</idea-plugin>

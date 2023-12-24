@@ -1,0 +1,102 @@
+{
+  "name": "Ukraine",
+  "author": "Andriy Parkhomenko",
+  "dark": true,
+  "colors": {
+    "primaryBlue": "#001328",
+    "primaryYellow": "#b39e00"
+  },
+  "ui": {
+    "*": {
+      "background": "primaryBlue",
+      "foreground": "primaryYellow",
+      "infoForeground": "#2f6793",
+      "successForeground": "#50A661",
+      "selectionBackground": "#587a8c",
+      "selectionForeground": "#a7b9c7",
+      "selectionInactiveBackground": "#175472",
+      "selectionBackgroundInactive": "#175472",
+      "disabledBackground": "#587a8c",
+      "inactiveBackground": "primaryBlue",
+      "disabledForeground": "primaryBlue",
+      "disabledText": "#587a8c",
+      "inactiveForeground": "#296989",
+      "acceleratorForeground": "#a9daf3",
+      "acceleratorSelectionForeground": "#a9daf3",
+      "errorForeground": "#b64063",
+      "borderColor": "#001b34",
+      "disabledBorderColor": "#1f546b",
+      "focusColor": "#04405b",
+      "focusedBorderColor": "#04405b",
+      "hoverBorderColor": "#04405b",
+      "pressedBorderColor": "#04405b",
+      "separatorColor": "#072f44",
+      "lineSeparatorColor": "#001b34"
+    },
+    "Borders": {
+      "color": "#001b34",
+      "ContrastBorderColor": "#002444"
+    },
+    "Editor": {
+      "background": "primaryBlue",
+      "foreground": "primaryYellow",
+      "shortcutForeground": "#f53cd0"
+    },
+    "DefaultTabs": {
+      "underlineColor": "primaryYellow",
+      "inactiveUnderlineColor": "#04405b",
+      "underlineHeight": 5,
+      "hoverBackground": "#072f44"
+    },
+    "Bookmark": {
+      "iconBackground": "#28acea",
+      "Mnemonic": {
+        "iconForeground": "primaryYellow"
+      }
+    },
+    "Button": {
+      "startBackground": "primaryBlue",
+      "endBackground": "primaryBlue",
+      "startBorderColor": "#03151f",
+      "endBorderColor": "#03151f",
+      "default": {
+        "foreground": "primaryBlue",
+        "startBackground": "#2a6593",
+        "endBackground": "#2a6593",
+        "startBorderColor": "#2a6593",
+        "endBorderColor": "#2a6593",
+        "focusedBorderColor": "#000000"
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "#587a8c",
+      "Actions.Red": "#FF3633",
+      "Actions.Yellow": "#b39e00",
+      "Actions.Green": "#00b61b",
+      "Actions.Blue": "#137db2",
+      "Actions.GreyInline.Dark": "#FFFFFFFF",
+      "Objects.Grey": "#587a8c",
+      "Objects.RedStatus": "#FF4340FF",
+      "Objects.Red": "#FF4340FF",
+      "Objects.Pink": "#FF8FA2FF",
+      "Objects.Yellow": "#FFD333FF",
+      "Objects.Green": "#008d14ff",
+      "Objects.Blue": "#4097b6ff",
+      "Objects.Purple": "#A880FFFF",
+      "Objects.BlackText": "#000000FF",
+      "Objects.YellowDark": "#b39e00",
+      "Objects.GreenAndroid": "#00E61FFF",
+      "Checkbox.Background.Default.Dark": "#000000",
+      "Checkbox.Border.Default.Dark": "#FFFFFF",
+      "Checkbox.Foreground.Selected.Dark": "#FFFFFF",
+      "Checkbox.Focus.Wide.Dark": "#072f44",
+      "Checkbox.Focus.Thin.Default.Dark": "#072f44",
+      "Checkbox.Focus.Thin.Selected.Dark": "#072f44",
+      "Checkbox.Background.Disabled.Dark": "#000000",
+      "Checkbox.Border.Disabled.Dark": "#b39e00",
+      "Checkbox.Foreground.Disabled.Dark": "#b39e00"
+    }
+  }
+}
