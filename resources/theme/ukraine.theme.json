@@ -3,8 +3,8 @@
   "author": "Andriy Parkhomenko",
   "dark": true,
   "colors": {
-    "primaryBlue": "#001328",
-    "primaryYellow": "#b39e00"
+    "primaryBlue": "#000F21",
+    "primaryYellow": "#fcc660"
   },
   "ui": {
     "*": {
@@ -13,7 +13,7 @@
       "infoForeground": "#2f6793",
       "successForeground": "#50A661",
       "selectionBackground": "#04405b",
-      "selectionForeground": "#a7b9c7",
+      "selectionForeground": "#b4b4b4",
       "selectionInactiveBackground": "#04405b",
       "selectionBackgroundInactive": "#04405b",
       "disabledBackground": "primaryBlue",
@@ -30,11 +30,11 @@
       "focusedBorderColor": "#04405b",
       "hoverBorderColor": "#04405b",
       "pressedBorderColor": "#04405b",
-      "separatorColor": "#072f44",
-      "lineSeparatorColor": "#001b34"
+      "separatorColor": "#04405b",
+      "lineSeparatorColor": "#04405b"
     },
     "Borders": {
-      "color": "#001b34",
+      "color": "#002d57",
       "ContrastBorderColor": "#002444"
     },
     "Editor": {
@@ -48,7 +48,7 @@
       "underlineHeight": 5,
       "hoverBackground": "#072f44"
     },
-    "StatusBar.borderColor": "#b3b3b3",
+    "StatusBar.borderColor": "#b4b4b4",
     "Button": {
       "startBackground": "primaryBlue",
       "endBackground": "primaryBlue",
@@ -62,17 +62,24 @@
         "endBorderColor": "#2a6593",
         "focusedBorderColor": "#000000"
       }
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "primaryBlue",
+        "unmatchedForeground": "#E0861F"
+      },
+      "FileHistory.Commit.selectedBranchBackground": "#b4b4b4"
     }
   },
   "icons": {
     "ColorPalette": {
       "Actions.Grey": "#587a8c",
-      "Actions.Red": "#FF3633",
+      "Actions.Red": "#e84577",
       "Actions.Yellow": "#b39e00",
       "Actions.Green": "#00b61b",
       "Actions.Blue": "#137db2",
       "Actions.GreyInline.Dark": "#FFFFFFFF",
-      "Objects.Grey": "#587a8c",
+      "Objects.Grey": "#3d525d",
       "Objects.RedStatus": "#FF4340FF",
       "Objects.Red": "#FF4340FF",
       "Objects.Pink": "#FF8FA2FF",
@@ -90,8 +97,8 @@
       "Checkbox.Focus.Thin.Default.Dark": "#072f44",
       "Checkbox.Focus.Thin.Selected.Dark": "#072f44",
       "Checkbox.Background.Disabled.Dark": "#000000",
-      "Checkbox.Border.Disabled.Dark": "#b39e00",
-      "Checkbox.Foreground.Disabled.Dark": "#b39e00"
+      "Checkbox.Border.Disabled.Dark": "#fcc660",
+      "Checkbox.Foreground.Disabled.Dark": "#fcc660"
     }
   }
 }
