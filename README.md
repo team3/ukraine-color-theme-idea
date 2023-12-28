@@ -8,4 +8,5 @@ The "Ukraine" theme for this IDE boasts a sophisticated and dark aesthetic, crea
 
 # Screenshots
 ![Screenshot](Preview.png?raw=true "The \"Ukraine\" theme for IntelliJ Idea")
-![Screenshot](Preview1.png?raw=true "The \"Ukraine\" theme for IntelliJ Idea")
+![Screenshot](Preview-1.png?raw=true "The \"Ukraine\" theme for IntelliJ Idea")
+![Screenshot](Preview-2.png?raw=true "The \"Ukraine\" theme for IntelliJ Idea")
