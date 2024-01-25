@@ -3,17 +3,17 @@
   "author": "Andriy Parkhomenko",
   "dark": true,
   "colors": {
-    "primaryBlue": "#000F21",
-    "primaryYellow": "#fcc660"
+    "primaryBlue": "#1f2942",
+    "primaryYellow": "#9FC4E7"
   },
   "ui": {
     "*": {
       "background": "primaryBlue",
       "foreground": "primaryYellow",
-      "infoForeground": "#2f6793",
+      "infoForeground": "#397eb4",
       "successForeground": "#008611ff",
-      "selectionBackground": "#04405b",
-      "selectionForeground": "#b4b4b4",
+      "selectionBackground": "#00506f",
+      "selectionForeground": "#efeeee",
       "selectionInactiveBackground": "#04405b",
       "selectionBackgroundInactive": "#04405b",
       "disabledBackground": "primaryBlue",
@@ -22,7 +22,7 @@
       "disabledText": "#283944",
       "inactiveForeground": "#485e6b",
       "acceleratorForeground": "#2f6793",
-      "acceleratorSelectionForeground": "#2f6793",
+      "acceleratorSelectionForeground": "#000000",
       "errorForeground": "#9d3956",
       "borderColor": "#001b34",
       "disabledBorderColor": "#1f546b",
@@ -33,8 +33,15 @@
       "separatorColor": "#04405b",
       "lineSeparatorColor": "#04405b"
     },
+    "Tree": {
+      "selectionBackground": "#00192f",
+      "selectionInactiveBackground": "#00192f"
+    },
+    "Component": {
+      "warningFocusColor": "#002444"
+    },
     "Borders": {
-      "color": "#002d57",
+      "color": "#4097b6",
       "ContrastBorderColor": "#002444"
     },
     "Editor": {
@@ -56,10 +63,10 @@
       "endBorderColor": "#03151f",
       "default": {
         "foreground": "primaryBlue",
-        "startBackground": "#2a6593",
-        "endBackground": "#2a6593",
-        "startBorderColor": "#2a6593",
-        "endBorderColor": "#2a6593",
+        "startBackground": "#1c4565",
+        "endBackground": "#1c4565",
+        "startBorderColor": "#1c4565",
+        "endBorderColor": "#1c4565",
         "focusedBorderColor": "#000000"
       }
     },
@@ -69,6 +76,16 @@
         "unmatchedForeground": "#E0861F"
       },
       "FileHistory.Commit.selectedBranchBackground": "#b4b4b4"
+    },
+    "CompletionPopup": {
+      "foreground": "#b4b4b4",
+      "matchForeground": "#27a8e9",
+      "selectionBackground": "#00192f",
+      "selectionInactiveBackground": "#00192f",
+      "Advertiser": {
+        "background": "#137db2",
+        "foreground": "#b64063"
+      }
     }
   },
   "icons": {
