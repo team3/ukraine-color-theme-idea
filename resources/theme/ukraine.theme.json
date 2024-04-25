@@ -12,10 +12,10 @@
       "foreground": "primaryYellow",
       "infoForeground": "#397eb4",
       "successForeground": "#008611ff",
-      "selectionBackground": "#00506f",
-      "selectionForeground": "#efeeee",
-      "selectionInactiveBackground": "#04405b",
-      "selectionBackgroundInactive": "#04405b",
+      "selectionBackground": "#0C66AD",
+      "selectionForeground": "#ACBDC3",
+      "selectionInactiveBackground": "#f8c149",
+      "selectionBackgroundInactive": "#f8c149",
       "disabledBackground": "primaryBlue",
       "inactiveBackground": "primaryBlue",
       "disabledForeground": "primaryBlue",
@@ -34,14 +34,15 @@
       "lineSeparatorColor": "#04405b"
     },
     "Tree": {
-      "selectionBackground": "#00192f",
-      "selectionInactiveBackground": "#00192f"
+      "selectionBackground": "#0C66AD",
+      "selectionInactiveBackground": "#0C66AD",
+      "selectionForeground": "#9FC4E7"
     },
     "Component": {
       "warningFocusColor": "#002444"
     },
     "Borders": {
-      "color": "#4097b6",
+      "color": "#296989",
       "ContrastBorderColor": "#002444"
     },
     "Editor": {
@@ -53,7 +54,7 @@
       "underlineColor": "primaryYellow",
       "inactiveUnderlineColor": "#04405b",
       "underlineHeight": 5,
-      "hoverBackground": "#072f44"
+      "hoverBackground": "#0e5a82"
     },
     "StatusBar.borderColor": "#b4b4b4",
     "Button": {
@@ -62,11 +63,11 @@
       "startBorderColor": "#03151f",
       "endBorderColor": "#03151f",
       "default": {
-        "foreground": "primaryBlue",
-        "startBackground": "#1c4565",
-        "endBackground": "#1c4565",
-        "startBorderColor": "#1c4565",
-        "endBorderColor": "#1c4565",
+        "foreground": "primaryYellow",
+        "startBackground": "#1872c5",
+        "endBackground": "#1872c5",
+        "startBorderColor": "#1872c5",
+        "endBorderColor": "#1872c5",
         "focusedBorderColor": "#000000"
       }
     },
@@ -79,7 +80,7 @@
     },
     "CompletionPopup": {
       "foreground": "#b4b4b4",
-      "matchForeground": "#27a8e9",
+      "matchForeground": "#0C66AD",
       "selectionBackground": "#00192f",
       "selectionInactiveBackground": "#00192f",
       "Advertiser": {
