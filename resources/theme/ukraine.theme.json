@@ -13,9 +13,9 @@
       "infoForeground": "#397eb4",
       "successForeground": "#008611ff",
       "selectionBackground": "#0C66AD",
-      "selectionForeground": "#ACBDC3",
-      "selectionInactiveBackground": "#f8c149",
-      "selectionBackgroundInactive": "#f8c149",
+      "selectionForeground": "#ececec",
+      "selectionInactiveBackground": "#587a8c",
+      "selectionBackgroundInactive": "#587a8c",
       "disabledBackground": "primaryBlue",
       "inactiveBackground": "primaryBlue",
       "disabledForeground": "primaryBlue",
@@ -74,7 +74,7 @@
     "VersionControl": {
       "Log.Commit": {
         "currentBranchBackground": "primaryBlue",
-        "unmatchedForeground": "#E0861F"
+        "unmatchedForeground": "#587a8c"
       },
       "FileHistory.Commit.selectedBranchBackground": "#b4b4b4"
     },

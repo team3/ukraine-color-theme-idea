@@ -195,5 +195,22 @@
         <option name="FOREGROUND" value="ad433f" />
       </value>
     </option>
+    <option name="ScrollBar.Mac.background" value="00000000"/>
+
+    <option name="ScrollBar.Mac.trackColor" value="00000000"/>
+    <option name="ScrollBar.Mac.thumbColor" value="545657"/>
+    <option name="ScrollBar.Mac.thumbBorderColor" value="37393B"/>
+
+    <option name="ScrollBar.Mac.hoverTrackColor" value="00000000"/>
+    <option name="ScrollBar.Mac.hoverThumbColor" value="555758"/>
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="37393B"/>
+
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="00000000"/>
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="545657"/>
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="37393B"/>
+
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="00000000"/>
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="555758"/>
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="37393B"/>
   </attributes>
 </scheme>
